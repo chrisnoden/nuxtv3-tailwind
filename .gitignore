@@ -1,3 +1,6 @@
+# JetBrains IDE - you may want to remove this for your project
+.idea/*
+
 # Node dependencies
 node_modules
 
@@ -10,4 +13,9 @@ node_modules
 
 # Config
 .env
+
+# Mac files
 .DS_Store
+
+# Dev certs
+*.pem

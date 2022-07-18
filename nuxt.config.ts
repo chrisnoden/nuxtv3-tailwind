@@ -10,8 +10,6 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         // Doc: https://github.com/nuxt-community/google-fonts-module
         '@nuxtjs/google-fonts',
-        // pinia plugin
-        '@pinia/nuxt'
     ],
     components: {
         global: true,
