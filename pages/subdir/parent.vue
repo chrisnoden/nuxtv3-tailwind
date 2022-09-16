@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { defineProps } from '@vue/runtime-core';
 
 const props = defineProps({
     value: { type: Object, required: false },
