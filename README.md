@@ -5,6 +5,9 @@ Tailwind CSS v3.1
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+> NB: eslint currently pinned at 8.22.0 because of an error that occurs in JetBrains IDEs after a breaking change
+> in eslint
+
 ## Setup
 
 Make sure to install the dependencies:
