@@ -1,7 +1,7 @@
-# NuxtJS v3 with Tailwind CSS 3.1
+# NuxtJS v3 with Tailwind CSS 3.2
 
 This project is a starter template to get you going using Nuxt v3 and
-Tailwind CSS v3.1
+Tailwind CSS v3.2
 
 Look at the [nuxt 3 documentation](https://nuxt.com/) to learn more.
 
