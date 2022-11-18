@@ -3,10 +3,7 @@
 This project is a starter template to get you going using Nuxt v3 and
 Tailwind CSS v3.1
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
-> NB: eslint currently pinned at 8.22.0 because of an error that occurs in JetBrains IDEs after a breaking change
-> in eslint
+Look at the [nuxt 3 documentation](https://nuxt.com/) to learn more.
 
 ## Setup
 
@@ -14,18 +11,10 @@ Make sure to install the dependencies:
 
 ```bash
 # yarn
-yarn install
+yarn install --force
 ```
 
 ## Development Server
-
-Start the development server and open the home page in your browser
-
-```bash
-yarn dev -o
-```
-
-### Or, if you want SSL for your local dev
 
 You will need a local SSL cert
 
@@ -38,7 +27,7 @@ mkcert localhost
 Start the development server and open the home page in your browser
 
 ```bash
-yarn sdev -o
+yarn dev -o
 ```
 
 
@@ -51,4 +40,4 @@ yarn build
 yarn start
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

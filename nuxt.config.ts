@@ -3,12 +3,6 @@ export default defineNuxtConfig({
     build: {
         transpile: ['@heroicons/vue']
     },
-    buildModules: [
-        // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-        '@nuxtjs/tailwindcss',
-        // Doc: https://github.com/nuxt-community/google-fonts-module
-        '@nuxtjs/google-fonts',
-    ],
     components: {
         global: true,
         dirs: [
@@ -26,6 +20,10 @@ export default defineNuxtConfig({
         }
     },
     modules: [
+        // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+        '@nuxtjs/tailwindcss',
+        // Doc: https://github.com/nuxt-community/google-fonts-module
+        '@nuxtjs/google-fonts',
     ],
     nitro: {
         preset: 'node-server'
