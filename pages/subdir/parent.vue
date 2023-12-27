@@ -5,7 +5,7 @@ const props = defineProps({
     value: { type: Object, required: false },
 });
 
-const thing = ref(null);
+const thing = ref<string>();
 
 onMounted(() => {
     thing.value = 'Hello Chris';
@@ -15,6 +15,7 @@ onMounted(() => {
 <template>
     <div>
         New component here!
+        {{ thing }}
 
         <NuxtPage />
     </div>

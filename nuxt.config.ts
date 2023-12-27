@@ -25,9 +25,6 @@ export default defineNuxtConfig({
         // Doc: https://github.com/nuxt-community/google-fonts-module
         '@nuxtjs/google-fonts',
     ],
-    nitro: {
-        preset: 'node-server'
-    },
     runtimeConfig: {
         public: {
             // these env vars are available in the client runtime
