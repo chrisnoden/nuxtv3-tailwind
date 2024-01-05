@@ -1,4 +1,3 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     build: {
         transpile: ['@heroicons/vue']
@@ -20,9 +19,11 @@ export default defineNuxtConfig({
         }
     },
     modules: [
-        // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+        // @see https://nuxt.com/modules/eslint and https://github.com/nuxt/eslint-config
+        '@nuxtjs/eslint-module',
+        // @see https://github.com/nuxt-community/nuxt-tailwindcss
         '@nuxtjs/tailwindcss',
-        // Doc: https://github.com/nuxt-community/google-fonts-module
+        // @see https://github.com/nuxt-community/google-fonts-module
         '@nuxtjs/google-fonts',
     ],
     runtimeConfig: {
